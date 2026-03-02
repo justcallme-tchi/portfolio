@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    cursor: none;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #080b0f;
+    color: #e2e8f0;
+    font-family: 'Syne', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* Grid background */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(57, 255, 143, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(57, 255, 143, 0.02) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(226, 232, 240, 0.25);
+  }
+  .text-outline-accent {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(57, 255, 143, 0.4);
+  }
+  .font-syne { font-family: 'Syne', sans-serif; }
+  .font-mono { font-family: 'Space Mono', monospace; }
+  .font-serif-custom { font-family: 'Instrument Serif', serif; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #080b0f; }
+::-webkit-scrollbar-thumb { background: #1e2d3d; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #39ff8f; }
