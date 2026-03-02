@@ -54,9 +54,9 @@ export default function Hero() {
         {/* Tagline */}
         <motion.p {...fadeUp(0.5)} className="font-serif-custom italic text-muted mb-12"
           style={{ fontSize: 'clamp(18px, 2.5vw, 28px)' }}>
-          CS student building things that{' '}
-          <span className="text-accent2 not-italic font-syne font-semibold">matter</span>{' '}
-          — full-stack · mobile · cybersecurity
+          BSc Software Engineering · MSc Cybersecurity{' '}
+          <span className="text-accent2 not-italic font-syne font-semibold">@ 1st year</span>{' '}
+          — full-stack · mobile · security
         </motion.p>
 
         {/* CTA buttons */}

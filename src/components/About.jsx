@@ -12,6 +12,8 @@ function SectionLabel({ children }) {
 }
 
 const stats = [
+  { num: 'BSc', label: 'Software Engineering' },
+  { num: 'MSc', label: 'Cybersecurity - 1st year (in progress)' },
   { num: '7+', label: 'Languages mastered' },
   { num: 'DZ', label: 'Based in Algiers' },
   { num: '12', label: 'GitHub repositories' },
@@ -36,7 +38,7 @@ export default function About() {
           <em className="font-serif-custom font-normal not-italic" style={{ color: '#00bfff' }}>with a mission</em>
         </h2>
         <p className="text-muted leading-relaxed mb-5 text-[15px]">
-          Hey, I'm Chaïma — a software engineering student from Algiers, Algeria, passionate about building software that makes a real difference in people's lives.
+          Hey, I'm Chaïma — a software engineer Bachelor graduate from Algiers, Algeria and also 1st year MSc student in Cybersecurity, passionate about building software that makes a real difference in people's lives.
         </p>
         <p className="text-muted leading-relaxed mb-5 text-[15px]">
           I explore the intersection of health-tech, education technology, and security — currently sharpening my skills in cybersecurity and computer vision.
@@ -82,7 +84,8 @@ export default function About() {
   `}<span style={{color:'#7c9cbf'}}>bio</span><span style={{color:'#334155'}}>: {'{'}</span>{`
     `}<span style={{color:'#7c9cbf'}}>location</span><span style={{color:'#334155'}}>: </span><span style={{color:'#39ff8f'}}>'Algeria'</span><span style={{color:'#334155'}}>,</span>{`
     `}<span style={{color:'#7c9cbf'}}>nick</span><span style={{color:'#334155'}}>: </span><span style={{color:'#39ff8f'}}>'tchi'</span><span style={{color:'#334155'}}>,</span>{`
-    `}<span style={{color:'#7c9cbf'}}>studies</span><span style={{color:'#334155'}}>: [</span><span style={{color:'#39ff8f'}}>'Software engineering'</span><span style={{color:'#334155'}}>],</span>{`
+    `}<span style={{color:'#7c9cbf'}}>bachelor</span><span style={{color:'#334155'}}>: </span><span style={{color:'#39ff8f'}}>'Software Engineering'</span><span style={{color:'#334155'}}>,</span>{`
+    `}<span style={{color:'#7c9cbf'}}>master</span><span style={{color:'#334155'}}>: </span><span style={{color:'#39ff8f'}}>'Cybersecurity (1st year)'</span><span style={{color:'#334155'}}>,</span>{`
   `}<span style={{color:'#334155'}}>},</span>{`
   `}<span style={{color:'#7c9cbf'}}>focus</span><span style={{color:'#334155'}}>: [</span>{`
     `}<span style={{color:'#39ff8f'}}>'React Native'</span><span style={{color:'#334155'}}>,</span>{`
