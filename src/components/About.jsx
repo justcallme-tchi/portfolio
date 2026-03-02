@@ -34,8 +34,8 @@ export default function About() {
       >
         <SectionLabel>About Me</SectionLabel>
         <h2 className="font-syne font-extrabold leading-[0.95] tracking-tight mb-8" style={{ fontSize: 'clamp(36px, 5vw, 60px)' }}>
-          CS student<br />
-          <em className="font-serif-custom font-normal not-italic" style={{ color: '#00bfff' }}>with a mission</em>
+          Engineer turned<br />
+          <em className="font-serif-custom font-normal not-italic" style={{ color: '#00bfff' }}>security researcher</em>
         </h2>
         <p className="text-muted leading-relaxed mb-5 text-[15px]">
           Hey, I'm Chaïma — a software engineer Bachelor graduate from Algiers, Algeria and also 1st year MSc student in Cybersecurity, passionate about building software that makes a real difference in people's lives.
