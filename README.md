@@ -4,7 +4,7 @@ Hey! I'm **Chaïma Hassani** (aka tchi) — a software engineer from Algiers, Al
 I hold a **Bachelor's degree in Software Engineering** and I'm currently a **1st year Master's student in Cybersecurity**.  
 This is my personal portfolio website, built to showcase my skills, projects, and who I am as a developer.
 
-I built it using **React**, **Tailwind CSS**, **Framer Motion**, and **Vite** and deployed it for on **Vercel**.  
+I built it using **React**, **Tailwind CSS**, **Framer Motion**, and **Vite** and deployed it on **Vercel**.  
 No templates, no drag-and-drop builders, so just code. 🙂
 
 ---
