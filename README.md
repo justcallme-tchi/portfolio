@@ -1,4 +1,6 @@
-# 🖥️ My Personal Portfolio
+# 🖥️ My Personal Portfolio 
+
+**[🌐 Visit my portfolio right now](https://chaima-dev.vercel.app/)**
 
 Hey! I'm **Chaïma Hassani** (aka tchi) — a software engineer from Algiers, Algeria.  
 I hold a **Bachelor's degree in Software Engineering** and I'm currently a **1st year Master's student in Cybersecurity**.  
